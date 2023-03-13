@@ -1,0 +1,45 @@
+
+<link rel="stylesheet" href="styles/logs.css"/>
+<!-- <link rel="stylesheet" href="styles/setup.css"/> -->
+<div class="stup">
+    <div class="row">
+        <div  class="status">
+            <p id="head">Connection Status</p>
+            <p id="statusValue"></p>
+        </div>
+        <div class="device">
+            <img src="/images/monitor.svg" id="deviceLogo"/>
+            <div>
+                <p id="head">Connected Device</p>
+                <p id="deviceDetails"></p>
+            </div>
+        </div>
+
+    
+    </div>
+    <div class="logginarea" id="logginArea">
+        <div class="logs">
+            <!-- <span>12:00:1 IST</span> <p>This is the logging area</p> -->
+        </div>
+
+      
+       
+    </div>
+    <div class="expandedView">
+            <div class="container">
+                <div class="head">
+                    <p>Type: </p>
+                    <span>console.log</span>
+                </div>
+            
+                <p class="callstack">View Callstack</p>
+                <div class="data">
+                    <pre class="jsonvalue"></pre>
+
+                </div>
+
+            </div>
+    </div>
+
+</div>
+<script src="scripts/logs.js"></script>

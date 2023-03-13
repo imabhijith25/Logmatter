@@ -1,0 +1,37 @@
+.stup {
+    color: white;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    column-gap: 120px;
+    margin-top: 50px;
+}
+
+#head {
+    font-weight: 600;
+}
+
+.device {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#deviceDetails,
+#statusValue {
+    font-size: 13px;
+}
+
+#code {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+    resize: none;
+    width: 400px;
+    height: 100px;
+    color: rgb(232, 231, 231);
+    font-size: 12px;
+    font-family: monospace;
+}

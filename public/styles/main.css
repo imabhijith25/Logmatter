@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.layout {
+    display: flex;
+    background-color: #1A1A1A;
+    height: 100vh;
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-width: 240px;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #1A1A1A;
+
+
+}

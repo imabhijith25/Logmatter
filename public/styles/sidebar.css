@@ -1,0 +1,27 @@
+.sidebar-container {
+    padding-top: 40px;
+}
+
+.logo {
+    width: 100%;
+    padding: 10px 40px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    cursor: default;
+}
+
+.sidebar-container ul {
+    padding: 20px 30px;
+    color: white
+}
+
+.sidebar-container li {
+    padding: 10px;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.sidebar-container li:hover {
+    color: rgb(142, 139, 139);
+}

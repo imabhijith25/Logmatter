@@ -1,0 +1,96 @@
+.logginarea {
+    margin-top: 60px;
+}
+
+.logginarea p {
+    display: inline;
+    font-family: monospace;
+}
+
+.logginarea span {
+    font-family: monospace;
+    background-color: rgba(110, 180, 110, 0.674);
+    padding: 3px 2px;
+}
+
+.stup {
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    column-gap: 120px;
+    margin-top: 40px;
+}
+
+#head {
+    font-weight: 600;
+}
+
+.device {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#deviceDetails,
+#statusValue {
+    font-size: 13px;
+}
+
+.logs {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.logs:hover {
+    background-color: rgba(98, 92, 92, 0.201);
+}
+
+.expandedView {
+    background-color: #282828;
+    padding-top: 40px;
+    width: 350px;
+    display: none;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    padding-left: 20px;
+}
+
+.container .head {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 10px;
+
+}
+
+.container .head p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.container .head span {
+    background-color: rgba(57, 161, 57, 0.774);
+}
+
+.callstack {
+    position: absolute;
+    top: 44px;
+    right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    ;
+}
+
+.data {
+    margin-top: 30px;
+
+}
+
+.data pre {
+    font-family: monospace;
+}
